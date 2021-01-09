@@ -12,6 +12,8 @@ def readFile(board):
       if n.isdigit(): 
         r.append(int(n)) ## add to inner list
     board.append(r) ## add to primary list
+  
+  return None
 
 ## solves using recursion + backtracking
 def solve(board):
